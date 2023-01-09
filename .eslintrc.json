@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2019
+  },
+  "extends": [
+    "vaadin/typescript",
+    "vaadin/prettier"
+  ],
+  "plugins": [
+    "prettier",
+    "@typescript-eslint"
+  ]
+}

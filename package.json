@@ -1,0 +1,18 @@
+{
+  "name": "test-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-vaadin": "^1.0.0-alpha.7",
+    "eslint-plugin-prettier": "^4.2.1",
+    "typescript": "^4.9.4"
+  }
+}
